@@ -30,6 +30,8 @@ namespace LeakyApp {
             }
 
             clockForms.Clear();
+
+            GC.Collect();
         }
     }
 }
